@@ -8,6 +8,9 @@ import sys
 from werkzeug.utils import secure_filename
 from datetime import datetime
 
+#使用须知:需要的依赖库有flask、werkzeug
+#上一次更新:2025.7.22
+
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 UPLOAD_FOLDER = 'uploads'
